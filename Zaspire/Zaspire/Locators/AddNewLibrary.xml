@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<Locators>
+  
+  
+  <!-- LIBRARY -->
+  <ClickOnLibrary><![CDATA[//*[@id='libraries']]]></ClickOnLibrary>
+  <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
+
+  <LibraryCategory><![CDATA[//*[@id='LibraryCategoryId']]]></LibraryCategory>
+  <SelectLibraryOwner><![CDATA[//*[@id='LibraryAssignedUserId']]]></SelectLibraryOwner>
+  <EnterDocumentName><![CDATA[//*[@id='LibraryName']]]></EnterDocumentName>
+  <SelectDocumentType><![CDATA[//*[@id='LibraryType']]]></SelectDocumentType>
+  <EnterLibraryVersion><![CDATA[//*[@id='LibraryVersion']]]></EnterLibraryVersion>
+  <ClickOnSave><![CDATA[//*[@id='LibraryAddnewForm']/div[3]/div/div[2]/div/div/button]]></ClickOnSave>
+  
+  
+  
+  
+  
+</Locators>
+  

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+  
+  
+  <!--  LEAD BULK ACTIONS  -->
+  <SearchLeadCompany><![CDATA[//*[@id='leads_grid_filter']/label/input]]></SearchLeadCompany>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='leads_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <MoveHover><![CDATA[//*[@id='leads_grid_wrapper']/div[1]/div/div/button]]></MoveHover>
+  
+  
+  <!--  LEAD BULK UPDATE  -->  
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+  <SelectStatus><![CDATA[//*[@id='BulkUpdateLeadStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='BulkUpdateLeadSource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
+  <SelectPartner><![CDATA[//*[@id='BulkUpdateAssignedPartnerId']]]></SelectPartner>
+  
+  <ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
+  
+  <!--  BULK DELETE LEADS  -->
+  <ClickOnDeleteLeads><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteLeads>
+  
+  <!--  LEADS ADD TO CAMPAIN -->
+  <ClickOnAddToCampaign><![CDATA[//*[@id='add_lead']]]></ClickOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']/i]]></ClickOnMergeButton>
+  <ClickOnCampaignName><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr/td/a]]></ClickOnCampaignName>
+  <ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+  <SelectCampaignGroup><![CDATA[//*[@id='CampaignLeadGroup']]]></SelectCampaignGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignLeadGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddLeads><![CDATA[//*[@id='CampaignLeadIndexForm']/div[4]/a]]></ClickOnAddLeads>
+  
+
+  <!--  BULK EMAIL LEADS  -->
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+  
+
+</Locators>

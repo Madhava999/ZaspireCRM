@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- LEADS INDEX PAGE -->
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnBackToLeads><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToLeads>
+  <FirstLeadNameLink><![CDATA[//*[@id='normal']]]></FirstLeadNameLink>
+
+  <!-- FILTER BY GROUPS -->
+  <ClickOnFilterByGroups><![CDATA[//*[@id='LeadQuickSearchIndexForm']/table/tbody/tr[2]/td[1]/label/a]]></ClickOnFilterByGroups>
+  <SelectFilterByGroups><![CDATA[//*[@id='groupName']]]></SelectFilterByGroups>
+
+  <!-- CUSTOM VIEWS -->  
+  <ClickOnCustomViews><![CDATA[//*[@id='LeadQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+  <ClickOnCustomViewsNew><![CDATA[//*[@id='LeadQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnCustomViewsNew>
+  <SelectCustomViews><![CDATA[//*[@id='savedSearch']]]></SelectCustomViews>
+  <ClickOnBackToLeads><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToLeads>
+
+  <!-- DEFAULT VIEWS -->
+  <SelectDefaultViews><![CDATA[//*[@id='teamName']]]></SelectDefaultViews>
+
+  <!-- TAGS SEARCH -->
+  <EnterTags><![CDATA[//*[@id='tags_tag']]]></EnterTags>
+  <ClockOnTagsSearch><![CDATA[//*[@id='search_tags']]]></ClockOnTagsSearch>
+  <ClockOnTagsReset><![CDATA[//*[@id='reset_search_tags']]]></ClockOnTagsReset>
+
+  <!-- FILTER SEARCH -->
+  <EnterFilterSearch><![CDATA[//*[@id='leads_grid_filter']/label/input]]></EnterFilterSearch>
+  <ClockOnFilterReset><![CDATA[//*[@id='ToolTables_leads_grid_0']]]></ClockOnFilterReset>
+  
+  <ClockOnMasterCheckBox><![CDATA[//*[@id='leads_grid']/thead/tr/th[1]/div/span/input]]></ClockOnMasterCheckBox>
+
+  <!-- QUICK LINKS -->
+  <ClockOnQuickLook><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClockOnQuickLook>
+  <ClockOnQuickLookView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClockOnQuickLookView>
+  <ClockOnQuickLookEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClockOnQuickLookEdit>
+  <ClockOnQuickLookDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClockOnQuickLookDelete>
+  
+
+
+
+
+
+
+
+
+
+</Locators> 

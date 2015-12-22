@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <ClickOnActivitiess><![CDATA[//*[@id='activities']]]></ClickOnActivitiess>
+  <ClickOnCalls><![CDATA[//*[@id='calls']]]></ClickOnCalls>
+  <ClickOnCallsAddNew><![CDATA[//*[@id='relatedToContent']/table/tbody/tr/td[1]/a]]></ClickOnCallsAddNew>
+  
+  <SelectRelatedTo><![CDATA[//*[@id='CallParentType']]]></SelectRelatedTo>
+  <ClickOnMergeButton><![CDATA[//*[@id='assignrecord']]]></ClickOnMergeButton>>
+  <SelectrelatedToContent><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]/a]]></SelectrelatedToContent>
+  <SelectCallCategory><![CDATA[//*[@id='CallCategoryId']]]></SelectCallCategory>
+  <SelectCallOwner><![CDATA[//*//*[@id='CallAssignedUserId']]]></SelectCallOwner>
+  <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]></EnterCallSubject>
+  <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
+  <SelectCallDate><![CDATA[//*[@id='CallCallDate']]]></SelectCallDate>
+  <SelectCallFrom><![CDATA[//*[@id='CallCallFrom']]]></SelectCallFrom>
+  <SelectCallTo><![CDATA[.//*[@id='CallCallTo']]]></SelectCallTo>
+  <EnterNumberFrom><![CDATA[//*[@id='CallNewcallFrom']]]></EnterNumberFrom>
+  <EnterNumberFromExtension><![CDATA[//*[@id='CallNewcallFromExtension']]]></EnterNumberFromExtension>
+  <EnterNumberTo><![CDATA[//*[@id='CallNewcallTo']]]></EnterNumberTo>
+  <EnterNumberToExtension><![CDATA[//*[@id='CallNewcallToExtension']]]></EnterNumberToExtension>
+  <EnterCallFromName><![CDATA[//*[@id='CallCallerName']]]></EnterCallFromName>
+  <EnterCallToName><![CDATA[//*[@id='CallCaleeName']]]></EnterCallToName>
+  <SelectEmployee><![CDATA[//*[@id='CallCallFromEmp']]]></SelectEmployee>
+  <ClickOnStartingTime><![CDATA[//*[@id='clockface_call_toggle-btn']]]></ClickOnStartingTime>
+  <ClickOnCallHours><![CDATA[//*[@id='CallCallHours']]]></ClickOnCallHours>
+  <ClickOnCallMinutes><![CDATA[//*[@id='CallCallMins']]]></ClickOnCallMinutes>
+  <ClickOnCallSec><![CDATA[//*[@id='CallCallSecs']]]></ClickOnCallSec>
+  <ClickOnSave><![CDATA[//*[@id='CallAddnewForm']/div[3]/div/div[3]/div/div/button]]></ClickOnSave>
+  <SelectCancel><![CDATA[//*[@id='CallAddnewForm']/div[2]/div/ul/li[4]/a]]></SelectCancel>
+
+
+</Locators>
+
+  

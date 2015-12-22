@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  <FirstLeadGroupNameLink><![CDATA[//*[@id='lead_groups']/tbody/tr[1]/td[2]/a]]></FirstLeadGroupNameLink>
+
+  
+  <!-- ADD POSITIONS  -->
+  <ClickOnAddPosition><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[4]/div/div/div[1]/div[3]/a]]></ClickOnAddPosition>
+  <EnterJobTitle><![CDATA[//*[@id='JobTitle']]]></EnterJobTitle>
+  <SelectCareerLevel><![CDATA[//*[@id='JobCareerLevel']]]></SelectCareerLevel>
+  <EnterExpYears><![CDATA[//*[@id='JobExperienceYears']]]></EnterExpYears>
+  <EnterExpMonths><![CDATA[//*[@id='JobExperienceMonths']]]></EnterExpMonths>
+  <EnterPositionUrl><![CDATA[//*[@id='JobPositionUrl']]]></EnterPositionUrl>
+  <SelectEducation><![CDATA[//*[@id='JobQualification']]]></SelectEducation>
+  <ClickOnJobTypeExpand><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[5]/div[1]/div[2]/a]]></ClickOnJobTypeExpand>
+  <SelectJobType><![CDATA[//*[@id='JobCompensationJobType']]]></SelectJobType>
+  <ClickOnJobLocationExpand><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[6]/div[1]/div[2]/a]]></ClickOnJobLocationExpand>
+  <EnterCity><![CDATA[//*[@id='JobAddress0City']]]></EnterCity>
+  <SelectState><![CDATA[//*[@id='JobAddress0State']]]></SelectState>
+  <SelectCountry><![CDATA[//*[@id='JobAddress0Country']]]></SelectCountry>
+  <EnterZipCode><![CDATA[//*[@id='JobAddress0ZipCode']]]></EnterZipCode>
+  <ClickOnAddLocations><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[6]/div[2]/div/div[2]/div[4]/a]]></ClickOnAddLocations>
+
+  <ClickOnSave><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[7]/button[1]]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[7]/button[2]]]></ClickOnCancel>
+
+  <!-- GROUP VIEW PAGE ACTIONS  -->
+  <ClickOnAddNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/div/a]]></ClickOnAddNew>
+  <ClickOnEdit><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnEdit>
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ClickOnBack>
+  <ClickOnMoreActions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/a]]></ClickOnMoreActions>
+  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li/a]]></ClickOnDelete>
+
+  <ClickOnAddNewToGroups><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[3]/a]]></ClickOnAddNewToGroups>
+  <ClickOnEditToGroups><![CDATA[//*[@id='LeadEditForm']/div[2]/div/ul/li[3]/a]]></ClickOnEditToGroups>
+  
+  <EnterJobPositionsSearchBox><![CDATA[//*[@id='related_positions_table_filter']/label/input]]></EnterJobPositionsSearchBox>
+  <ClickOnJobPositionsReset><![CDATA[//*[@id='ToolTables_related_positions_table_0']]]></ClickOnJobPositionsReset>
+  
+  <EnterLeadsSearchBox><![CDATA[//*[@id='related_leads_table_filter']/label/input]]></EnterLeadsSearchBox>
+  <ClickOnLeadsReset><![CDATA[//*[@id='ToolTables_related_leads_table_0']]]></ClickOnLeadsReset>
+  
+  
+  <!-- ADD LEADS FOR GROUP VIEW  -->
+  <ClickOnAddLeads><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[5]/div/div[1]/div/div[2]/a]]></ClickOnAddLeads>
+  <SelectPagination><![CDATA[//*[@id='add_leads_length']/label/select]]></SelectPagination>
+  <SelectMasterCheckBox><![CDATA[//*[@id='add_leads']/thead/tr/th[1]/div/span/input]]></SelectMasterCheckBox>
+  <ClickOnAddToGroup><![CDATA[//*[@id='CreateLeadGroup']/div[2]/div/ul/li[6]/button]]></ClickOnAddToGroup>
+  
+
+</Locators>

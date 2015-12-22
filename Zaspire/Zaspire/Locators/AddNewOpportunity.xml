@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <!-- CLASSIFICATIONS & OWNERSHIP -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnOpportunityAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnOpportunityAddNew>
+  <SelectStatus><![CDATA[//*[@id='OpportunityOpportunityStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='OpportunityOpportunitySource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='OpportunityCategoryId']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='OpportunityAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='OpportunityAssignedManagerId']]]></SelectManager>
+  
+
+  <!-- PRIMARY INFORMATION -->
+  <EnterOpportunityName><![CDATA[//*[@id='OpportunityOpportunityName']]]></EnterOpportunityName>
+  <EnterCompamnyName><![CDATA[//*[@id='OpportunityCompany']]]></EnterCompamnyName>
+  <SelectIndustry><![CDATA[//*[@id='OpportunityIndustry']]]></SelectIndustry>
+  <EnterNoOfEmployees><![CDATA[//*[@id='OpportunityNoOfEmployees']]]></EnterNoOfEmployees>
+  <EnterAnnualRevenue><![CDATA[//*[@id='OpportunityAnnualRevenue']]]></EnterAnnualRevenue>
+  <EnterProbability><![CDATA[//*[@id='OpportunityOpportunityProbability']]]></EnterProbability>
+  <EnterAmount><![CDATA[//*[@id='OpportunityOpportunityAmount']]]></EnterAmount>
+  <EnterGrossAmount><![CDATA[//*[@id='OpportunityGrossAmount']]]></EnterGrossAmount>
+  <EnterUnweightedPipeline><![CDATA[//*[@id='OpportunityUnweightedPipeline']]]></EnterUnweightedPipeline>
+  <EnterWeightedPipeline><![CDATA[//*[@id='OpportunityWeightedPipeline']]]></EnterWeightedPipeline>
+  <SelectSkillType><![CDATA[//*[@id='OpportunitySkillType']]]></SelectSkillType>
+  <EnterSpecificSkill><![CDATA[//*[@id='OpportunitySpecificSkill']]]></EnterSpecificSkill>
+  <EnterPayRate><![CDATA[//*[@id='OpportunityPayRate']]]></EnterPayRate>
+  <EnterBillRate><![CDATA[//*[@id='OpportunityBillRate']]]></EnterBillRate>
+  <EnterNextStep><![CDATA[//*[@id='OpportunityNextStep']]]></EnterNextStep>
+  
+  
+  
+
+
+  
+  <!-- CONTACT INFORMATION -->
+  <SelectContactSalutation><![CDATA[//*[@id='OpportunityContact0Salutation']]]></SelectContactSalutation>
+  <EnterContactFirstName><![CDATA[//*[@id='OpportunityContact0FirstName']]]></EnterContactFirstName>
+  <EnterContactMiddleName><![CDATA[//*[@id='OpportunityContact0MiddleName']]]></EnterContactMiddleName>
+  <EnterContactLastName><![CDATA[//*[@id='OpportunityContact0LastName']]]></EnterContactLastName>
+  <SelectContactPhoneType><![CDATA[//*[@id='OpportunityContact0OpportunityContactPhone0PhoneType']]]></SelectContactPhoneType>
+  <EnterContactPhoneNumber><![CDATA[//*[@id='OpportunityContact0OpportunityContactPhone0PhoneFormat']]]></EnterContactPhoneNumber>
+  <SelectContactEmailType><![CDATA[//*[@id='OpportunityContact0OpportunityContactElectronicAddress0ElectronicContentType']]]></SelectContactEmailType>
+  <EnterContactEmail><![CDATA[//*[@id='OpportunityContact0OpportunityContactElectronicAddress0ElectronicContent']]]></EnterContactEmail>
+  <SelectContactSocialLinkType><![CDATA[//*[@id='OpportunityContact0OpportunityContactSocialLink0SocialLinkType']]]></SelectContactSocialLinkType>
+  <EnterContactSocialLink><![CDATA[//*[@id='OpportunityContact0OpportunityContactSocialLink0SocialLink']]]></EnterContactSocialLink>
+
+  <!-- CONTACT INFORMATION ADDRESS -->
+  <ClickOnAddAddress><![CDATA[//*[@id='collapse_1']/div/div[9]/div[2]/a]]></ClickOnAddAddress>
+  <SelectContactAddressType><![CDATA[//*[@id='OpportunityContact0OpportunityContactAddress0Type']]]></SelectContactAddressType>
+  <EnterContactAddressLine1><![CDATA[//*[@id='OpportunityContact0OpportunityContactAddress0AddressLine1']]]></EnterContactAddressLine1>
+  <EnterContactAddressLine2><![CDATA[//*[@id='OpportunityContact0OpportunityContactAddress0AddressLine2']]]></EnterContactAddressLine2>
+  <EnterContactCity><![CDATA[//*[@id='OpportunityContact0OpportunityContactAddress0City']]]></EnterContactCity>
+  <SelectContactState><![CDATA[//*[@id='OpportunityContact0OpportunityContactAddress0State']]]></SelectContactState>
+  <SelectContactCountry><![CDATA[//*[@id='OpportunityContact0OpportunityContactAddress0Country']]]></SelectContactCountry>
+  <EnterContactZipCode><![CDATA[//*[@id='OpportunityContact0OpportunityContactAddress0PostalCode']]]></EnterContactZipCode>
+
+
+  <!-- SAVE OPPORTUNITY -->
+  <ClickOnSave><![CDATA[//*[@id='OpportunityAddnewForm']/div[3]/div/div[6]/div/div/button]]></ClickOnSave>
+
+
+
+
+</Locators>

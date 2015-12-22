@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- LEADS INDEX PAGE -->
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnCustomViews><![CDATA[//*[@id='LeadQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+
+  <!-- LEADS CUSTOM VIEWS INDEX PAGE -->
+  <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
+  <ClickOnDelete><![CDATA[//*[@id='remove_saved_views']]]></ClickOnDelete>
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnBack>
+  <EnterFilterSearchBox><![CDATA[//*[@id='lead_saved_views_filter']/label/input]]></EnterFilterSearchBox>
+  <ClickOnFilterReset><![CDATA[//*[@id='ToolTables_lead_saved_views_0']]]></ClickOnFilterReset>
+  <CheckMasterCheckBox><![CDATA[//*[@id='lead_saved_views']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>
+  <ClickOnCustomView><![CDATA[//*[@id='lead_saved_views']/tbody/tr[1]/td[2]/a]]></ClickOnCustomView>
+  <ClickOnCustomViewEdit><![CDATA[//*[@id='lead_saved_views']/tbody/tr[1]/td[5]/a[1]]]></ClickOnCustomViewEdit>
+  <ClickOnCustomViewDelete><![CDATA[//*[@id='lead_saved_views']/tbody/tr[1]/td[5]/a[2]]]></ClickOnCustomViewDelete>
+  <ClickOnCustomViewPermission><![CDATA[//*[@id='lead_saved_views']/tbody/tr[1]/td[5]/a[3]]]></ClickOnCustomViewPermission>
+  <CheckBox1><![CDATA[//*[@id='permission8']]]></CheckBox1>
+  <CheckBox2><![CDATA[//*[@id='permission11']]]></CheckBox2>
+  <CheckBox3><![CDATA[//*[@id='permission17']]]></CheckBox3>
+  <ClickOnCustomViewPermissionSave><![CDATA[//*[@id='LeadPermissionsForm']/div[2]/div/div[3]/button[1]]]></ClickOnCustomViewPermissionSave>
+  
+  
+  
+</Locators>

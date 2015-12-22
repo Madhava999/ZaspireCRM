@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- LEADS INDEX PAGE -->
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnCustomViews><![CDATA[//*[@id='LeadQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+
+  <!-- LEADS CUSTOM VIEW INDEX PAGE -->
+  <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
+
+  <!-- LEADS CUSTOM VIEW CREATE PAGE -->
+  <EnterCustomViewName><![CDATA[//*[@id='searchName']]]></EnterCustomViewName>
+  <SelectSortBy><![CDATA[//*[@id='LeadSortCol']]]></SelectSortBy>
+
+  <!-- ADD SEARCH CRITERIA LEADS CUSTOM VIEW CREATE PAGE -->
+  <SelectOwner><![CDATA[//*[@id='LeadCustomColValues1']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='LeadCustomColValues2']]]></SelectManager>
+  <SelectStatus><![CDATA[//*[@id='LeadCustomColValues3']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='LeadCustomColValues4']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='LeadCustomColValues5']]]></SelectCategory>
+  <SelectCreatedBy><![CDATA[//*[@id='LeadCustomColValues6']]]></SelectCreatedBy>
+  <SelectModifiedBy><![CDATA[//*[@id='LeadCustomColValues7']]]></SelectModifiedBy>
+  <SelectPartner><![CDATA[//*[@id='LeadCustomColValues8']]]></SelectPartner>
+  <SelectGroup><![CDATA[//*[@id='LeadCustomColValues9']]]></SelectGroup>
+
+  <EnterCreated><![CDATA[//*[@id='LeadCustomColValues10']]]></EnterCreated>
+  <EnterModified><![CDATA[//*[@id='LeadCustomColValues11']]]></EnterModified>
+
+  <!-- ADD ADDITIONAL CRITERIA LEADS CUSTOM VIEW CREATE PAGE -->
+  <SelectAdditionalField1><![CDATA[//*[@id='LeadAdditionalColNames']]]></SelectAdditionalField1>
+  <SelectOperator1><![CDATA[//*[@id='LeadAdditionalColOps']]]></SelectOperator1>
+  <EnterAdditionalValue1><![CDATA[//*[@id='LeadAdditionalColValues']]]></EnterAdditionalValue1>
+  <ClickOnAddNewField><![CDATA[//*[@id='LeadAdditionalColOps']]]></ClickOnAddNewField>
+  <SelectAdditionalField2><![CDATA[//*[@id='add_criteria']/tbody/tr[2]/td[1]/select]]></SelectAdditionalField2>
+  <SelectOperator2><![CDATA[//*[@id='LeadAdditionalColOps0']]]></SelectOperator2>
+  <EnterAdditionalValue2><![CDATA[//*[@id='add_criteria']/tbody/tr[2]/td[3]/input[2]]]></EnterAdditionalValue2>
+
+  <ClickOnSave><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[5]/div/div/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[5]/div/div/a[2]]]></ClickOnCancel>
+  <ClickOnPermission><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[5]/div/div/a[1]]]></ClickOnPermission>
+  
+  
+  
+</Locators>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnLeadAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnLeadAddNew>
+  <ClickOnEditLink><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[6]/a]]></ClickOnEditLink>
+  <ClickOnLeadView><![CDATA[//*[@id='normal']]]></ClickOnLeadView>
+  
+  <!-- CLASSIFICATIONS & OWNERSHIP -->
+  <SelectStatus><![CDATA[//*[@id='LeadLeadStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='LeadLeadSource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='LeadCategoryId']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='LeadAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='LeadAssignedManagerId']]]></SelectManager>
+  <SelectPartner><![CDATA[//*[@id='LeadAssignedPartnerId']]]></SelectPartner>
+  
+  <!-- LEAD DETAILS -->
+  <SelectSalutation><![CDATA[//*[@id='LeadSalutation']]]></SelectSalutation>
+  <EnterFirstName><![CDATA[//*[@id='LeadFirstName']]]></EnterFirstName>
+  <EnterMiddleName><![CDATA[//*[@id='LeadMiddleName']]]></EnterMiddleName>
+  <EnterLastName><![CDATA[//*[@id='LeadLastName']]]></EnterLastName>
+  <EnterCompany><![CDATA[//*[@id='LeadCompany']]]></EnterCompany>
+  <EnterLeadTitle><![CDATA[//*[@id='LeadTitle']]]></EnterLeadTitle>
+  <EnterDepartment><![CDATA[//*[@id='LeadDepartment']]]></EnterDepartment>
+  <EnterWebsite><![CDATA[//*[@id='LeadWebsite']]]></EnterWebsite>
+  <EnterNoOfEmployees><![CDATA[//*[@id='LeadNoOfEmployees']]]></EnterNoOfEmployees>
+  <SelectIndustry><![CDATA[//*[@id='LeadIndustry']]]></SelectIndustry>
+  <EnterAnnualRevenue><![CDATA[//*[@id='LeadAnnualRevenue']]]></EnterAnnualRevenue>
+  
+  
+  <!-- LEAD ADDRESS -->
+  <SelectAddressType><![CDATA[//*[@id='LeadAddress0Type']]]></SelectAddressType>
+  <EnterAddressLine1><![CDATA[//*[@id='LeadAddress0AddressLine1']]]></EnterAddressLine1>
+  <EnterAddressLine2><![CDATA[//*[@id='LeadAddress0AddressLine2']]]></EnterAddressLine2>
+  <EnterCity><![CDATA[//*[@id='LeadAddress0City']]]></EnterCity>
+  <SelectState><![CDATA[//*[@id='LeadAddress0State']]]></SelectState>
+  <SelectCountry><![CDATA[//*[@id='LeadAddress0Country']]]></SelectCountry>
+  <EnterZipCode><![CDATA[//*[@id='LeadAddress0PostalCode']]]></EnterZipCode>
+  
+  <!-- CONTACT INFORMATION -->
+  <SelectContactSalutation><![CDATA[//*[@id='LeadContact0Salutation']]]></SelectContactSalutation>
+  <EnterContactFirstName><![CDATA[//*[@id='LeadContact0FirstName']]]></EnterContactFirstName>
+  <EnterContactMiddleName><![CDATA[//*[@id='LeadContact0MiddleName']]]></EnterContactMiddleName>
+  <EnterContactLastName><![CDATA[//*[@id='LeadContact0LastName']]]></EnterContactLastName>
+  <SelectContactPhoneType><![CDATA[//*[@id='LeadContact0LeadContactPhone0PhoneType']]]></SelectContactPhoneType>
+  <EnterContactPhoneNumber><![CDATA[//*[@id='LeadContact0LeadContactPhone0PhoneFormat']]]></EnterContactPhoneNumber>
+  <SelectContactEmailType><![CDATA[//*[@id='LeadContact0LeadContactElectronicAddress0ElectronicContentType']]]></SelectContactEmailType>
+  <EnterContactEmail><![CDATA[//*[@id='LeadContact0LeadContactElectronicAddress0ElectronicContent']]]></EnterContactEmail>
+  <SelectContactSocialLinkType><![CDATA[//*[@id='LeadContact0LeadContactSocialLink0SocialLinkType']]]></SelectContactSocialLinkType>
+  <EnterContactSocialLink><![CDATA[//*[@id='LeadContact0LeadContactSocialLink0SocialLink']]]></EnterContactSocialLink>
+
+  <!-- CONTACT INFORMATION ADDRESS -->
+  <ClickOnAddAddress><![CDATA[//*[@id='collapse_1']/div/div[10]/div[2]/a]]></ClickOnAddAddress>
+  <SelectContactAddressType><![CDATA[//*[@id='LeadContact0LeadContactAddress1Type']]]></SelectContactAddressType>
+  <EnterContactAddressLine1><![CDATA[//*[@id='LeadContact0LeadContactAddress1AddressLine1']]]></EnterContactAddressLine1>
+  <EnterContactAddressLine2><![CDATA[//*[@id='LeadContact0LeadContactAddress1AddressLine2']]]></EnterContactAddressLine2>
+  <EnterContactCity><![CDATA[//*[@id='LeadContact0LeadContactAddress1City']]]></EnterContactCity>
+  <SelectContactState><![CDATA[//*[@id='LeadContact0LeadContactAddress1State']]]></SelectContactState>
+  <SelectContactCountry><![CDATA[//*[@id='LeadContact0LeadContactAddress1Country']]]></SelectContactCountry>
+  <EnterContactZipCode><![CDATA[//*[@id='LeadContact0LeadContactAddress1PostalCode']]]></EnterContactZipCode>
+
+  <!-- EDIT LEAD CONTACT INFORMATION ADDRESS -->
+  <ClickOnEditAddAddress><![CDATA[//*[@id='collapse_1']/div/div[9]/div[2]/a]]></ClickOnEditAddAddress>
+  <SelectEditContactAddressType><![CDATA[//*[@id='LeadContact0LeadContactAddress0Type']]]></SelectEditContactAddressType>
+  <EnterEditContactAddressLine1><![CDATA[//*[@id='LeadContact0LeadContactAddress0AddressLine1']]]></EnterEditContactAddressLine1>
+  <EnterEditContactAddressLine2><![CDATA[//*[@id='LeadContact0LeadContactAddress0AddressLine2']]]></EnterEditContactAddressLine2>
+  <EnterEditContactCity><![CDATA[//*[@id='LeadContact0LeadContactAddress0City']]]></EnterEditContactCity>
+  <SelectEditContactState><![CDATA[//*[@id='LeadContact0LeadContactAddress0State']]]></SelectEditContactState>
+  <SelectEditContactCountry><![CDATA[//*[@id='LeadContact0LeadContactAddress0Country']]]></SelectEditContactCountry>
+  <EnterEditContactZipCode><![CDATA[//*[@id='LeadContact0LeadContactAddress0PostalCode']]]></EnterEditContactZipCode>
+  
+  
+  <!-- SAVE LEAD -->
+  <ClickOnSave><![CDATA[//*[@id='form_sample_1']/div[3]/div/div[8]/div/div/button]]></ClickOnSave>
+  <ClickOnEditLeadSave><![CDATA[//*[@id='LeadContactAddress0']/div[7]/div/div/button]]></ClickOnEditLeadSave>
+
+
+  
+  
+  
+  
+</Locators>  
