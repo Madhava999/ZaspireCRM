@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+<ClickonAccountsTab><![CDATA[//*[@id='accounts']]]></ClickonAccountsTab>
+<SearchCompany><![CDATA[//*[@id='accounts_grid_filter']/label/input]]></SearchCompany>
+  <SelectMasterCheckbox><![CDATA[//*[@id='accounts_grid']/thead/tr/th[1]/div/span/input]]></SelectMasterCheckbox>
+ <SelectClientl><![CDATA[//*[@id='check15113']]]></SelectClientl>
+<SelectClient2><![CDATA[//*[@id='check14333']]]></SelectClient2>
+<MoveHover><![CDATA[//*[@id='accounts_grid_wrapper']/div[1]/div/div/button]]></MoveHover>
+<ClickonBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickonBulkUpdate>
+<ClickOnPartner><![CDATA[//*[@id='BulkUpdateAssignedPartnerId']]]></ClickOnPartner>
+<ClickOnOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></ClickOnOwner>
+<ClickOnCategory><![CDATA[//*[@id='BulkUpdateCategoryId']]]></ClickOnCategory>
+<ClickOnManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></ClickOnManager>
+<ClickOnStatus><![CDATA[//*[@id='BulkUpdateCompanyStatus']]]></ClickOnStatus>
+<ClickOnSource><![CDATA[//*[@id='BulkUpdateAccountSource']]]></ClickOnSource>
+<ClickOnUpadte><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpadte>
+<ClickOnQuickLinks><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLinks>
+  <ClickOnViewButton><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnViewButton>
+  <ClickOnEditButton><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnEditButton>
+  <ClickOnDeleteButton><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnDeleteButton>
+  <AccountsLink><![CDATA[//*[@id='accounts']]]></AccountsLink>
+  <ClickOnSaveButton><![CDATA[//*[@id='AccountUpdateForm']/div[2]/div/ul/li[4]/button]]></ClickOnSaveButton>
+
+</Locators>

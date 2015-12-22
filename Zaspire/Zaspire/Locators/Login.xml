@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <Login>
+    <Username><![CDATA[//*[@id='input-username']]]></Username>
+    <Password><![CDATA[//*[@id='input-password']]]></Password>
+    <Enter><![CDATA[//button[@type='submit']]]></Enter>
+  </Login>
+</Locators>

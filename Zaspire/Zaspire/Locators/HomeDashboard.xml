@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  ##################### Home Dashboard
+  
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnHome><![CDATA[//*[@id='home']]]></ClickOnHome>
+  <ClickOnContacts><![CDATA[//*[@id='contacts']]]></ClickOnContacts>
+  <ClickOnAccounts><![CDATA[//*[@id='accounts']]]></ClickOnAccounts>
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnCampaigns><![CDATA[//*[@id='campaigns']]]></ClickOnCampaigns>
+  <ClickOnPartners><![CDATA[//*[@id='partners']]]></ClickOnPartners>
+  
+  ################## Modules modified by day
+  <ModulesModifiedByDay><![CDATA[html/body/div[4]/div[2]/div[3]/div[1]/div/div[1]/div[2]/div/ul/li[1]/a]]></ModulesModifiedByDay>
+  <ActivitiesModifiedByDay><![CDATA[html/body/div[4]/div[2]/div[3]/div[1]/div/div[1]/div[2]/div/ul/li[2]/a]]></ActivitiesModifiedByDay>
+  <ModulesCreatedByDay><![CDATA[html/body/div[4]/div[2]/div[3]/div[1]/div/div[1]/div[2]/div/ul/li[3]/a]]></ModulesCreatedByDay>
+  <ActivitiesCreatedByDay><![CDATA[html/body/div[4]/div[2]/div[3]/div[1]/div/div[1]/div[2]/div/ul/li[4]/a]]></ActivitiesCreatedByDay>
+
+  ################## Upcoming Events
+  <ClickOnUpcoming><![CDATA[html/body/div[4]/div[2]/div[3]/div[2]/div/div[1]/div[2]/div/ul/li[1]/a]]></ClickOnUpcoming>
+  <ClickOnPastDue><![CDATA[html/body/div[4]/div[2]/div[3]/div[2]/div/div[1]/div[2]/div/ul/li[2]/a]]></ClickOnPastDue>
+  <ClickOnAll><![CDATA[html/body/div[4]/div[2]/div[3]/div[2]/div/div[1]/div[2]/div/ul/li[3]/a]]></ClickOnAll>
+  <ClickOnCalendar><![CDATA[html/body/div[4]/div[2]/div[3]/div[2]/div/div[1]/div[2]/div/ul/li[4]/a]]></ClickOnCalendar>
+
+  <SelectCRMDashboard><![CDATA[//*[@id='select2-drop']/ul/li[1]/div]]></SelectCRMDashboard>
+  <SelectATSDashboard><![CDATA[//*[@id='select2-drop']/ul/li[2]/div]]></SelectATSDashboard>
+
+  <ClickOnAllOption><![CDATA[//*[@id='select2-drop']/ul/li[1]/div]]></ClickOnAllOption>
+  <ClickOnMyTeamOption><![CDATA[//*[@id='select2-drop']/ul/li[2]/div]]></ClickOnMyTeamOption>
+  <ClickOnMyOption><![CDATA[//*[@id='select2-drop']/ul/li[3]/div]]></ClickOnMyOption>
+
+  
+
+
+</Locators>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+  <URL>
+    <application><![CDATA[http://zaspire.com]]></application>
+    <application2><![CDATA[http://zaspire.com]]></application2>
+    <logout><![CDATA[http://zaspire.com/logout]]></logout>
+
+  </URL>
+  <Credentials>
+    <!--OFFICE -->
+    <username><![CDATA[ranjith@infozeal.com]]></username>
+    <password><![CDATA[aspireCRM]]></password>
+    <!--SuperAdmin-->
+    <username1><![CDATA[superadmin]]></username1>
+    <password1><![CDATA[aspireCRM]]></password1>
+  </Credentials>
+
+  <browserdata>
+    <browser><![CDATA[firefox]]></browser>
+  </browserdata>
+</settings>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Contact tab #######################
+  <ClickAccountsTab><![CDATA[//*[@id='accounts']]]></ClickAccountsTab>
+  <ClickOnAddNew><![CDATA[//*[@id='addnew']]]></ClickOnAddNew>
+  <SelectClient><![CDATA[//*[@id='normal']]]></SelectClient>
+  <ClickOnTrash><![CDATA[html/body/div[4]/div[1]/ul/li[4]/ul/li[4]/a]]></ClickOnTrash>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[4]/ul/li[3]/a]]></ClickOnGroups>
+  <ClickOnImport><![CDATA[html/body/div[4]/div[1]/ul/li[4]/ul/li[2]/a]]></ClickOnImport>
+  <SelectClient1><![CDATA[//*[@id='actionicons1']/a/i[1]]]></SelectClient1>
+  <MouseOver><![CDATA[//*[@id='actionicons1']/a/i[2]]]></MouseOver>
+  <Edit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></Edit>
+  ***********************Classification and ownership
+  <SelectStatus><![CDATA[//*[@id='AccountCompanyStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='AccountAccountSource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='AccountCategoryId']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='AccountAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='AccountAssignedManagerId']]]></SelectManager>
+  <SelectPartner><![CDATA[//*[@id='AccountAssignedPartnerId']]]></SelectPartner>
+  
+  //####### CREATE A CONTACT
+  <Salutation><![CDATA[//*[@id='AccountContact0Salutation']]]></Salutation>
+  <FirstNAME><![CDATA[//*[@id='AccountContact0FirstName']]]></FirstNAME>
+  <MiddleName><![CDATA[//*[@id='AccountContact0MiddleName']]]></MiddleName>
+  <LastName><![CDATA[//*[@id='AccountContact0LastName']]]></LastName>
+  <CompanyName><![CDATA[//*[@id='AccountCompany']]]></CompanyName>
+  <LegalName><![CDATA[//*[@id='AccountCompanyLegalName']]]></LegalName>
+  <Website><![CDATA[//*[@id='AccountWebsite']]]></Website>
+  <Industry><![CDATA[//*[@id='AccountIndustry']]]></Industry>
+  <No.ofEmployees><![CDATA[//*[@id='AccountNoOfEmployees']]]></No.ofEmployees>
+  <TickerSymbol><![CDATA[//*[@id='AccountTickerSymbol']]]></TickerSymbol>
+  //########## PHONE
+  <PhoneType><![CDATA[//*[@id='AccountContact0AccountContactPhone0PhoneType']]]></PhoneType>
+  <PhoneNumber><![CDATA[//*[@id='AccountContact0AccountContactPhone0PhoneFormat']]]></PhoneNumber>
+  <DoNotCall><![CDATA[//*[@id='AccountContact0AccountContactPhone0DoNotCall']]]></DoNotCall>
+  //####### EMAIL AND INTERNET
+  <SelectEmailType><![CDATA[//*[@id='AccountContact0AccountContactElectronicAddress0ElectronicContentType']]]></SelectEmailType>
+  <Eaddrress><![CDATA[//*[@id='AccountContact0AccountContactElectronicAddress0ElectronicContent']]]></Eaddrress>
+  <OptedOut><![CDATA[//div[@id='AccountContact0AccountContactSocialLink0OptOut]]]></OptedOut>
+  
+  //$$$$$$$$$$$ Social Link
+  <SocialLinkType><![CDATA[//div[@id='AccountContact0AccountContactSocialLink0SocialLinkType]]]></SocialLinkType>
+  <Socialid><![CDATA[//div[@id='AccountContact0AccountContactSocialLink0SocialLink]]]></Socialid>
+  
+  //################# ADDRESS
+  <AddressType><![CDATA[//*[@id='AccountAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='AccountAddress0AddressLine1']]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='AccountAddress0AddressLine2']]]></AddressLine2>
+  <City><![CDATA[//*[@id='AccountAddress0City']]]></City>
+  <AddressState><![CDATA[//*[@id='AccountAddress0State']]]></AddressState>
+  <ZipCode><![CDATA[//*[@id='AccountAddress0PostalCode']]]></ZipCode>
+  <SelectCountry><![CDATA[//*[@id='AccountAddress0Country']]]></SelectCountry>
+
+  //######################  CLICK ON SAVE BUTTON
+  <!--<SaveAccountbtn><![CDATA[//*[@id='AccountCreateForm']/div[3]/div/div[7]/div/div/button]]></SaveAccountbtn>-->
+  <SaveAccountbtn><![CDATA[//*[@id='AccountCreateForm']/div[2]/div/ul/li[5]/button]]></SaveAccountbtn>
+  <!--<ClickOnDublicate><![CDATA[//*[@id='AccountCreateForm']/div[3]/div/div[7]/div/div/button]]></ClickOnDublicate>
+  <EnterNameToSrchy><![CDATA[//*[@id='gs_contactNm']]]></EnterNameToSrchy>-->
+
+  ######################## Filter By Group
+  <FilterByGroup><![CDATA[//*[@id='AccountQuickSearchIndexForm']/table/tbody/tr[2]/td[1]/label/a]]></FilterByGroup>
+  <AccountsLink><![CDATA[//*[@id='accounts']]]></AccountsLink>
+  
+  ########################### Default view
+  <DefaultView><![CDATA[//*[@id='s2id_teamName']/a/span[2]/b]]></DefaultView>
+  <AllAccount><![CDATA[//*[@id='select2-drop']/ul/li[1]/div]]></AllAccount>
+  
+  ########################## Custom View
+  <CustomView><![CDATA[//*[@id='AccountQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></CustomView>
+  
+  ########################## Filter By Tags
+  <FilterByTag><![CDATA[//*[@id='tags_tag']]]></FilterByTag>
+  <Search><![CDATA[//*[@id='search_tags']]]></Search>
+  
+  <!--  EXPORT CONTACTS         -->
+  <ClickOnExportContact><![CDATA[//a[@title='Export Contacts']]]></ClickOnExportContact>
+  <CheckboxFirstName><![CDATA[//*[@id='first_name']]]></CheckboxFirstName>
+  <CheckboxLastname><![CDATA[//*[@id='last_name']]]></CheckboxLastname>
+  <ClickExportBtn><![CDATA[//*[@id='ContactsExportForm']/div[4]/div/a[1]/span[1]]]></ClickExportBtn>
+
+  <!-- IMPORT CONTACT     -->
+  <ClickImport><![CDATA[//*[@id='vcard_file']]]></ClickImport>
+  <ImportBtn><![CDATA[//*[@id='importform']/input[2]]]></ImportBtn>
+  
+
+  ################################ View Page
+  
+ <ClickTimeLine><![CDATA[//*[@id='timeline1']/div[2]]]></ClickTimeLine>
+ <ClickListView><![CDATA[//*[@id='timelinelist']/div[1]/a]]></ClickListView>
+ <ClickGraphicalView><![CDATA[//*[@id='change_log_table_wrapper']/div[2]/div/a]]></ClickGraphicalView>
+  
+  ######################### Job Postions
+  <ClickOnAddNewButton><![CDATA[//*[@id='related_positions_table_wrapper']/div[2]/div/div[2]/a]]></ClickOnAddNewButton>
+  <ClickJobPositions><![CDATA[//*[@id='ui-id-2']/div[1]]]></ClickJobPositions>
+  <EnterJobType><![CDATA[//*[@id='JobTitle']]]></EnterJobType>
+  <SelectCareerLevel><![CDATA[//*[@id='JobCareerLevel']]]></SelectCareerLevel>
+  <SelectExperienceYears><![CDATA[//*[@id='JobExperienceYears']]]></SelectExperienceYears>
+  <SelectExperienceMonths><![CDATA[//*[@id='JobExperienceMonths']]]></SelectExperienceMonths>
+  <EnterJobPositionURL><![CDATA[//*[@id='JobPositionUrl']]]></EnterJobPositionURL>
+  <ClickOnJobPositionSaveButton><![CDATA[//*[@id='addpositionForm']/div[2]/div[2]/div[7]/button[1]]]></ClickOnJobPositionSaveButton>
+  
+  <ClickActivities><![CDATA[//*[@id='activity1']]]></ClickActivities>
+  <ClickContactsInfo><![CDATA[//*[@id='contact1']]]></ClickContactsInfo>
+  <ClickOnEmailLink><![CDATA[//*[@id='tab_contacts']/div/div[4]/div/div[2]/ul[2]/li[1]/div/div/div[2]/a]]></ClickOnEmailLink>
+  <ClickDescription><![CDATA[//*[@id='description1']]]></ClickDescription>
+  <ClickOnFile><![CDATA[//*[@id='jg_icons']/div/a/i[2]]]></ClickOnFile>
+  <EnterSearch><![CDATA[//*[@id='activities_table_filter']/label/input]]></EnterSearch>
+ <ViewFile><![CDATA[//*[@id='jg_icons']/div/ul/li[1]/a]]></ViewFile>
+
+  <OwnerLink><![CDATA[//*[@id='tab_myas_1']/ul/li[1]/div/div[1]/div/div/a[1]]]></OwnerLink>
+  <GroupLink><![CDATA[//*[@id='tab_myas_1']/ul/li[1]/div/div[1]/div/div/a[2]]]></GroupLink>
+  <FileLink><![CDATA[//*[@id='tab_myas_1']/ul/li[1]/div/div[1]/div/div/a[3]]]></FileLink>
+  <DateRange><![CDATA[//*[@id='form-date-range']]]></DateRange>
+  
+  
+ ################################### Trash Page #########################
+ <FilterSearchBox><![CDATA[//*[@id='account_trash_filter']/label/input]]></FilterSearchBox>
+  <SelectOneRecord><![CDATA[//*[@id='account_trash']/thead/tr/th[1]/div/span/input]]></SelectOneRecord>
+  <ClickOnDeleteForever><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteForever>
+  <ClickOnRestoreAccounts><![CDATA[//*[@id='restore_record']]]></ClickOnRestoreAccounts>
+  <ClickOnPageNo><![CDATA[//*[@id='account_trash_length']/label/select]]></ClickOnPageNo>
+
+ #################################### Group Trash Page################
+ <ClickOnQuickLinks><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLinks>
+  <ClickonDeleteForeverButton><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickonDeleteForeverButton>
+  <ClickonRestoreButton><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickonRestoreButton>
+
+###################################### View Page########################
+<ClicOnTrashRecordViewPage><![CDATA[//*[@id='normal']]]></ClicOnTrashRecordViewPage>
+ <ClickOnRestoreOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnRestoreOption>
+  <ClickOnDeletesOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnDeletesOption>
+  <ClicOnGroupTrashButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClicOnGroupTrashButton>
+</Locators>

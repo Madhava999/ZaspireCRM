@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ClickonAccountsTab><![CDATA[//*[@id='accounts']]]></ClickonAccountsTab>
+  <FirstClientNameLink><![CDATA[//*[@id='normal']]]></FirstClientNameLink>
+  <MoveHover><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></MoveHover>
+  <AddNote><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[5]/a]]></AddNote>
+  <NoteName><![CDATA[.//*[@id='NoteName']]]></NoteName>
+  <NoteDesc><![CDATA[//*[@id='NoteDescription']]]></NoteDesc>
+  <Save><![CDATA[//*[@id='main_container']/div/div[3]/a[1]/span[2]]]></Save>
+  
+  ####################### Add File############################
+  <FileName><![CDATA[//*[@id='AttachmentName']]]></FileName>
+  <FileCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></FileCategory>
+  <FileLogo><![CDATA[//*[@id='AttachmentFiles']]]></FileLogo>
+  <Description><![CDATA[//*[@id='AttachmentDescription']]]></Description>
+  <Save><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]]]></Save>
+  
+  ##################### LogACall
+  
+  <CallSubject><![CDATA[//*[@id='CallSubject']]]></CallSubject>
+  <CallType><![CDATA[//*[@id='CallCallType']]]></CallType>
+  <CallDate><![CDATA[//*[@id='CallCallDate']]]></CallDate>
+  <CallFrom><![CDATA[//*[@id='CallCallFrom']]]></CallFrom>
+  <CallTo><![CDATA[//*[@id='CallCallTo']]]></CallTo>
+  <EnterNumberFrom><![CDATA[//*[@id='CallNewcallFrom']]]></EnterNumberFrom>
+  <EnterNumberTo><![CDATA[//*[@id='CallNewcallTo']]]></EnterNumberTo>
+  <CallStartTime><![CDATA[//*[@id='clockface_call_toggle-btn']]]></CallStartTime>
+  <TimeinHrs><![CDATA[//*[@id='CallCallHours']]]></TimeinHrs>
+  <TimeinMins><![CDATA[//*[@id='CallCallMins']]]></TimeinMins>
+  <TimeinSecs><![CDATA[//*[@id='CallCallSecs']]]></TimeinSecs>
+  <Save><![CDATA[//*[@id='LogCallForm']/div[4]/button[1]]]></Save>
+  ##############################Email#########################
+  <SelectRecord><![CDATA[//*[@id='normal']]]></SelectRecord>
+  <SendE-Mail><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[4]/a]]></SendE-Mail>
+  <ToAddress><![CDATA[//*[@id='s2id_EmailToAddrs']/ul]]></ToAddress>
+  <EmailSubject><![CDATA[//*[@id='EmailName']]]></EmailSubject>
+  <EnterDescription><![CDATA[html/body]]></EnterDescription>
+  <Send><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></Send>
+
+  ################################# Copy @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  <Copy><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[1]/a]]></Copy>
+  
+  ############################## Internal fields
+  <Owner><![CDATA[//*[@id='responsibility']]]></Owner>
+  <SelectOwner><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div[1]/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectOwner>
+  <Select><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div[1]/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></Select>
+
+  <Manager><![CDATA[//*[@id='manager']]]></Manager>
+  <SelectManager><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div[1]/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectManager>
+
+  <Source><![CDATA[//*[@id='account_source']]]></Source>
+  <SelectSource><![CDATA[//*[@id='select2-drop']/ul/li[3]/div]]></SelectSource>
+
+  <Category><![CDATA[//*[@id='category']]]></Category>
+  <SelectCategory><![CDATA[//*[@id='select2-drop']/ul/li[1]/div]]></SelectCategory>
+
+
+  <Partner><![CDATA[//*[@id='partner']]]></Partner>
+  <SelectPartner><![CDATA[//*[@id='rest_internal']/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectPartner>
+   
+   ################################### Delete
+  <Delete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/ul/li[2]/a]]></Delete>
+
+ ##################################### Meetings
+ <Meetings><![CDATA[//*[@id='Meeting']]]></Meetings>
+
+  <Task><![CDATA[//*[@id='Task']]]></Task>
+
+  <Appointment><![CDATA[//*[@id='App']]]></Appointment>
+  
+  <Location><![CDATA[//*[@id='EventLocation']]]></Location>
+  <EnterSubject><![CDATA[//*[@id='EventName']]]></EnterSubject>
+  <StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+  <StartTime><![CDATA[//*[@id='clockface_start_event']]]></StartTime>
+  <EndDate><![CDATA[//*[@id='EventEndDate']]]></EndDate>
+  <EndTime><![CDATA[//*[@id='clockface_end_event']]]></EndTime>
+  <Remaider><![CDATA[//*[@id='pop']/label/div/span]]></Remaider>
+  <RemainderTime><![CDATA[//*[@id='reminderTime']]]></RemainderTime>
+  <EmailCheckbox><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></EmailCheckbox>
+  <EmailRemainder><![CDATA[//*[@id='emailReminderTime']]]></EmailRemainder>
+  <RecurringEvent><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></RecurringEvent>
+  <Repeatonceinayeardays><![CDATA[//*[@id='EventRepeatType']]]></Repeatonceinayeardays>
+  <Until><![CDATA[//*[@id='EventRepeatUntil']]]></Until>
+  <invitees><![CDATA[//*[@id='EventInviteecontacts']]]></invitees>
+  <Email><![CDATA[//*[@id='EventEmail']]]></Email>
+  <FirstName><![CDATA[//*[@id='EventFirstname']]]></FirstName>
+  <LastName><![CDATA[//*[@id='EventLastname']]]></LastName>
+  <Search><![CDATA[//*[@id='addinvitees']]]></Search>
+  <EnterDescLink><![CDATA[//*[@id='address_add_link']]]></EnterDescLink>
+  <EnterDesc><![CDATA[//*[@id='EventDescription']]]></EnterDesc>
+  <Save><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></Save>
+  
+ 
+</Locators>
