@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>  
+  <FirstLeadNameLink><![CDATA[//*[@id='normal']]]></FirstLeadNameLink>
+  <MoveHover><![CDATA[/html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/a]]></MoveHover>
+  
+
+  <!-- ADD TASK & ADD APPOINTMENT & ADD MEETING -->
+  <ClickOnAddTask><![CDATA[//*[@id='Task']]]></ClickOnAddTask>
+  <ClickOnAddAppointment><![CDATA[//*[@id='App']]]></ClickOnAddAppointment>
+  <ClickOnAddMeeting><![CDATA[//*[@id='Meeting']]]></ClickOnAddMeeting>
+  
+  <SelectEventType><![CDATA[//*[@id='EventEventType']]]></SelectEventType>  
+  <EnterEventLocation><![CDATA[//*[@id='EventLocation']]]></EnterEventLocation>
+  <EnterEventSubject><![CDATA[//*[@id='EventName']]]></EnterEventSubject>
+  <SelectEventStartDate><![CDATA[//*[@id='EventStartDate']]]></SelectEventStartDate>  
+  <SelectStartTime><![CDATA[//*[@id='clockface_start_event_toggle-btn']]]></SelectStartTime>  
+  <SelectEventDueDate><![CDATA[//*[@id='EventEndDate']]]></SelectEventDueDate>  
+  <SelectEndTime><![CDATA[//*[@id='clockface_end_event_toggle-btn']]]></SelectEndTime>  
+  <CheckReminder><![CDATA[//*[@id='pop']/label/div/span]]></CheckReminder>
+  <SelectReminderTime><![CDATA[//*[@id='reminderTime']]]></SelectReminderTime>
+  <CheckEmail><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></CheckEmail>
+  <CheckRecurringEvent><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></CheckRecurringEvent>
+  
+  <ClickOnSave><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></ClickOnCancel>
+
+
+  <!-- ADD NOTE -->
+  <ClickOnAddNote><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[9]/a]]></ClickOnAddNote>
+  <EnterNoteSubject><![CDATA[//*[@id='NoteName']]]></EnterNoteSubject>
+  <EnterNoteDescription><![CDATA[//*[@id='NoteDescription']]]></EnterNoteDescription>
+  <SelectNoteFile><![CDATA[//*[@id='Attachment0Files']]]></SelectNoteFile>
+
+  <ClickOnSaveNote><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[1]]]></ClickOnSaveNote>
+  <ClickOnCancelNote><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[2]]]></ClickOnCancelNote>
+
+
+  <!-- ADD FILE -->
+  <ClickOnAddFile><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[10]/a]]></ClickOnAddFile>
+  <EnterFileName><![CDATA[//*[@id='NoteName']]]></EnterFileName>
+  <SelectCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></SelectCategory>
+  <SelectAttachmentFile><![CDATA[//*[@id='AttachmentFiles']]]></SelectAttachmentFile>
+  <EnterFileDescription><![CDATA[//*[@id='AttachmentDescription']]]></EnterFileDescription>
+
+  <ClickOnSaveFile><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[1]]]></ClickOnSaveFile>
+  <ClickOnCancelFile><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></ClickOnCancelFile>
+
+
+
+  <!-- ADD LOG CALL -->
+  <ClickOnAddCall><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[14]/a]]></ClickOnAddCall>
+  <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]></EnterCallSubject>
+  <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
+  <EnterCallDate><![CDATA[//*[@id='CallCallDate']]]></EnterCallDate>
+  <SelectCallFrom><![CDATA[//*[@id='CallCallFrom']]]></SelectCallFrom>
+  <SelectCallTo><![CDATA[//*[@id='CallCallTo']]]></SelectCallTo>
+  <EnterCallFromNumber><![CDATA[//*[@id='CallNewcallFrom']]]></EnterCallFromNumber>
+  <EnterCallToNumber><![CDATA[//*[@id='CallNewcallTo']]]></EnterCallToNumber>
+  <EnterCallHours><![CDATA[//*[@id='CallCallHours']]]></EnterCallHours>
+  <EnterCallMins><![CDATA[//*[@id='CallCallMins']]]></EnterCallMins>
+  <EnterCallSecs><![CDATA[//*[@id='CallCallSecs']]]></EnterCallSecs>
+  <ClickOnDescriptionLink><![CDATA[//*[@id='address_add_link']]]></ClickOnDescriptionLink>
+  <EnterCallDescription><![CDATA[//*[@id='CallDescription']]]></EnterCallDescription>
+
+  <ClickOnSaveLogCall><![CDATA[//*[@id='LogCallForm']/div[4]/button[1]]]></ClickOnSaveLogCall>
+  <ClickOnCancelLogCall><![CDATA[//*[@id='LogCallForm']/div[4]/button[2]]]></ClickOnCancelLogCall>
+
+
+
+  <!-- LEAD COPY -->
+  <ClickOnCopy><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[1]/a]]></ClickOnCopy>
+  
+
+  <!-- LEAD DELETE -->
+  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[2]/a]]></ClickOnDelete>
+
+
+  <!-- ADD LEAD TO CAMPAIGN -->
+  <ClickOnAddToCampaign1><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[5]/a]]></ClickOnAddToCampaign1>
+   
+  <ClickOnAddToCampaign><![CDATA[//*[@id='add_lead']]]></ClickOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']]]></ClickOnMergeButton>
+  <ClickOnCampaignName><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr/td/a]]></ClickOnCampaignName>
+  <ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+  <SelectCampaignGroup><![CDATA[//*[@id='CampaignContactGroup']]]></SelectCampaignGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignContactGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddLeads><![CDATA[//*[@id='CampaignContactViewForm']/div[2]/div/div[3]/a]]></ClickOnAddLeads>
+
+
+  <!-- SEND EMAIL -->
+  <ClickOnSendEmail><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[8]/a]]></ClickOnSendEmail>
+  <ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+  <ToAddressCheckBox><![CDATA[//*[@id='toid']]]></ToAddressCheckBox>
+  <CCAddressCheckBox><![CDATA[//*[@id='ccid']]]></CCAddressCheckBox>
+  <BCCAddressCheckBox><![CDATA[//*[@id='bccid']]]></BCCAddressCheckBox>
+  <ClickOnAddEmailAddress><![CDATA[//*[@id='submitemail']]]></ClickOnAddEmailAddress>
+  <ClickOnSendEmailButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendEmailButton>
+  
+  
+  
+  
+  
+  
+  
+</Locators>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<Locators>
+
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>  
+  <FirstLeadNameLink><![CDATA[//*[@id='normal']]]></FirstLeadNameLink>
+  <ClickOnInlineExpand><![CDATA[//*[@id='show_internal']/div]]></ClickOnInlineExpand>
+  
+  <!-- INLINE EDIT CHANGE STATUS -->
+  <ChangeStatus><![CDATA[//*[@id='progress_div']/div/div[3]]]></ChangeStatus>
+  
+  <!-- INLINE EDIT CHANGE OWNER -->
+  <ClickOnOwner><![CDATA[//*[@id='responsibility']]]></ClickOnOwner>
+  <SelectOwner><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectOwner>
+  <ClickOnOwnerOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnOwnerOk>
+
+  <!-- INLINE EDIT CHANGE MANAGER -->
+  <ClickOnManager><![CDATA[//*[@id='manager']]]></ClickOnManager>
+  <SelectManager><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectManager>
+  <ClickOnManagerOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnManagerOk>
+
+  <!-- INLINE EDIT CHANGE SOURCE -->
+  <ClickOnSource><![CDATA[//*[@id='lead_source']]]></ClickOnSource>
+  <SelectSource><![CDATA[//*[@id='autogen29']]]></SelectSource>
+  <ClickOnSourceOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[3]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnSourceOk>
+
+  <!-- INLINE EDIT CHANGE CATEGORY -->
+  <ClickOnCategory><![CDATA[//*[@id='category']]]></ClickOnCategory>
+  <SelectCategory><![CDATA[//*[@id='autogen37']]]></SelectCategory>
+  <ClickOnCategoryOk><![CDATA[//*[@id='rest_internal']/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnCategoryOk>
+
+  <!-- INLINE EDIT CHANGE PARTNER -->
+  <ClickOnPartner><![CDATA[//*[@id='partner']]]></ClickOnPartner>
+  <SelectPartner><![CDATA[//*[@id='rest_internal']/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectPartner>
+  <ClickOnPartnerOk><![CDATA[//*[@id='rest_internal']/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnPartnerOk>
+
+
+  <!-- TABS -->
+  <ClickOnJobPositionstab><![CDATA[//*[@id='ui-id-2']/div[1]]]></ClickOnJobPositionstab>
+  <ClickOnActivitiestab><![CDATA[//*[@id='activity1']]]></ClickOnActivitiestab>
+  <ClickOnContactInfotab><![CDATA[//*[@id='contact1']]]></ClickOnContactInfotab>
+  <ClickOnCampaignstab><![CDATA[//*[@id='campaign1']]]></ClickOnCampaignstab>
+  <ClickOnDescriptiontab><![CDATA[//*[@id='description1']]]></ClickOnDescriptiontab>
+  <ClickOnTimeLinetab><![CDATA[//*[@id='ui-id-1']/div[2]]]></ClickOnTimeLinetab>
+
+
+
+  <!-- TIMELINE -->
+  <ClickOnMoreActivity><![CDATA[//*[@id='more']]]></ClickOnMoreActivity>  
+  <ClickOnListView><![CDATA[//*[@id='timelinelist']/div[1]/a]]></ClickOnListView>
+  <EnterListViewSearchBox><![CDATA[//*[@id='change_log_table_filter']/label/input]]></EnterListViewSearchBox>
+  <ClickOnListViewReset><![CDATA[//*[@id='ToolTables_change_log_table_0']]]></ClickOnListViewReset>
+  <ClickOnGraphicalView><![CDATA[//*[@id='change_log_table_wrapper']/div[2]/div/a]]></ClickOnGraphicalView>
+  <ClickOnUserName><![CDATA[//*[@id='content_box']/div/div[1]/div[3]/div[1]/div[2]/small/a]]></ClickOnUserName>
+  
+  
+  <!-- MANAGE TAGS -->
+  <ClickOnManageTags><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[2]/div[5]/div[1]/div[2]/a]]></ClickOnManageTags>
+  <EnterYourTagName><![CDATA[//*[@id='selTags_addTag']]]></EnterYourTagName>
+  <ClickOnYourTagSave><![CDATA[//*[@id='manual_tagsViewForm']/div[3]/div/div/button]]></ClickOnYourTagSave>
+  <ClickOnSystemGeneratedTags><![CDATA[//*[@id='manage_auto_tags']/div/div/div/div/ul/li[2]/a]]></ClickOnSystemGeneratedTags>
+  <ClickOnTagsEdit><![CDATA[//*[@id='manage_auto_tags']]]></ClickOnTagsEdit> 
+  <UncheckState><![CDATA[//*[@id='recreate_auto_formFields']]]></UncheckState>
+  <UncheckDepartment><![CDATA[//*[@id='recreate_auto_formFields']]]></UncheckDepartment>
+  <ClickOnRecreate><![CDATA[//*[@id='recreate_submit']]]></ClickOnRecreate>
+  <ClickOnTagsDelete><![CDATA[//*[@id='delete_auto_tags']]]></ClickOnTagsDelete>
+  <ClickOnTagsName><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[2]/div[5]/div[2]/div/div[1]/div/div/div/a[1]]]></ClickOnTagsName>
+
+
+
+</Locators>

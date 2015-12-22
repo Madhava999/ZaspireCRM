@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLink>
+  <ClickOnEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnEdit>
+  
+  <EnterGroupName><![CDATA[//*[@id='LeadGroupDetailName']]]></EnterGroupName>
+  <EnterCity><![CDATA[//*[@id='LeadGroupDetailCity']]]></EnterCity>
+  <SelectState><![CDATA[//*[@id='LeadGroupDetailState']]]></SelectState>
+  <SelectCountry><![CDATA[//*[@id='LeadGroupDetailCountry']]]></SelectCountry>
+  <EnterZipCode><![CDATA[//*[@id='LeadGroupDetailPostalCode']]]></EnterZipCode>
+
+  <ClickOnSave><![CDATA[//*[@id='LeadEditForm']/div[3]/div/div[3]/div/div/button]]></ClickOnSave>
+
+
+
+</Locators>

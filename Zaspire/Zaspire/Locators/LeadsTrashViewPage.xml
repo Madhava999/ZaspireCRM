@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <!-- LEADS TRASH VIEW PAGE -->
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnLeadView><![CDATA[//*[@id='normal']]]></ClickOnLeadView> 
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[7]/a]]></ClickOnBack>  
+  <ClickOnRestore><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[6]/a]]></ClickOnRestore>
+  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/a]]></ClickOnDelete>
+  
+
+</Locators>

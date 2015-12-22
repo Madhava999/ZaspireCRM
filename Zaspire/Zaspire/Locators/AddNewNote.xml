@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <ClickOnActivitiess><![CDATA[//*[@id='activities']]]></ClickOnActivitiess>
+  <ClickOnNotes><![CDATA[//*[@id='notes']]]></ClickOnNotes>
+
+  <ClickOnNoteAddNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[3]/a]]></ClickOnNoteAddNew>
+  <SelectNoteCategory><![CDATA[//*[@id='NoteCategoryId']]]></SelectNoteCategory>
+  <SelectNoteOwner><![CDATA[//*[@id='NoteOwnerId']]]></SelectNoteOwner>
+  <SelectRelatedTo><![CDATA[//*[@id='NoteParentType']]]></SelectRelatedTo>
+  <ClickOnMergeButton><![CDATA[//*[@id='assignrecord']]]></ClickOnMergeButton>
+  <SelectRelatedToRecord><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]/a]]></SelectRelatedToRecord>
+  <EnterNoteSubject><![CDATA[//*[@id='NoteName']]]></EnterNoteSubject>
+  
+
+  <SelectFile><![CDATA[//*[@id='NoteAttachment0Files']]]></SelectFile>
+  <ClickOnSave><![CDATA[//*[@id='NoteAddnewForm']/div[3]/div/div[3]/div/div/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='NoteAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnCancel>
+
+
+
+</Locators>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+  <ClickOnEmployees><![CDATA[//*[@id='employees']]]></ClickOnEmployees>
+  <ClickOnEmployeeAddNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[3]/a]]></ClickOnEmployeeAddNew>
+
+  <!-- EMPLOYEE DETAILS -->
+  <SelectSalutation><![CDATA[//*[@id='EmployeeSalutation']]]></SelectSalutation>
+  <EnterFirstName><![CDATA[//*[@id='EmployeeFirstName']]]></EnterFirstName>
+  <EnterMiddleName><![CDATA[//*[@id='EmployeeMiddleName']]]></EnterMiddleName>
+  <EnterLastName><![CDATA[//*[@id='EmployeeLastName']]]></EnterLastName>
+
+  <!-- EADDRESSES -->
+  <SelectEmployeeType><![CDATA[//*[@id='EmployeeType']]]></SelectEmployeeType>  
+  <EnterContactEmail><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></EnterContactEmail>
+
+  <!-- PHONE -->
+  <SelectPhoneType><![CDATA[//*[@id='EmployeePhone0PhoneType']]]></SelectPhoneType>
+  <EnterPhoneNumber><![CDATA[//*[@id='phone_format']]]></EnterPhoneNumber>
+
+  <!-- EMPLOYEE ADDRESS -->
+  <SelectAddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></SelectAddressType>
+  <EnterAddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></EnterAddressLine1>
+  <EnterAddressLine2><![CDATA[//*[@id='EmployeeAddress0AddressLine2']]]></EnterAddressLine2>
+  <EnterCity><![CDATA[//*[@id='EmployeeAddress0City']]]></EnterCity>
+  <SelectState><![CDATA[//*[@id='EmployeeAddress0State']]]></SelectState>
+  <SelectCountry><![CDATA[//*[@id='EmployeeAddress0Country']]]></SelectCountry>
+  <EnterZipCode><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></EnterZipCode>
+
+  <!-- DEPARTMENT, ROLE & TEAM -->
+  <SelectDepartment><![CDATA[//*[@id='EmployeeOrgDeptId']]]></SelectDepartment>
+  <SelectRole><![CDATA[//*[@id='EmployeeOrgRoleId']]]></SelectRole>
+  <SelectTeam><![CDATA[//*[@id='EmployeeOrgHierarchyId']]]></SelectTeam>
+
+  <!-- SAVE -->
+  <ClickOnSave><![CDATA[//*[@id='EmployeeAddnewForm']/div[3]/div[10]/button[1]]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='EmployeeAddnewForm']/div[3]/div[10]/button[2]]]></ClickOnCancel>
+
+  <!-- EMPLOYEE USER -->
+  <ClickOnCheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickOnCheckBox>
+  <EnterLoginEmail><![CDATA[//*[@id='UserUserName']]]></EnterLoginEmail>
+  <EnterPassword><![CDATA[//*[@id='UserPassword']]]></EnterPassword>
+  <ClickOnDonotEmail><![CDATA[//*[@id='EmployeeSendverification']]]></ClickOnDonotEmail>
+  <ClickOnAdminUser><![CDATA[//*[@id='1']]]></ClickOnAdminUser>
+
+
+
+</Locators>

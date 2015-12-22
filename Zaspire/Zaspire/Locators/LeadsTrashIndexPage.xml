@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- LEADS TRASH INDEX PAGE -->
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>  
+  <ClickOnTrash><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[4]/a]]></ClickOnTrash>
+  
+  <ClickOnBackToLeadsTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToLeadsTrash>
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnBack>
+  <ClickOnGroupTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnGroupTrash>
+  <EnterFilterSearch><![CDATA[//*[@id='lead_trash_filter']/label/input]]></EnterFilterSearch>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_lead_trash_0']]]></ClickOnReset>
+  <ClickOnMouseHover><![CDATA[//*[@id='lead_trash_wrapper']/div[1]/div/div/button]]></ClickOnMouseHover>
+  <ClickOnDeleteForever><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteForever> 
+  <ClickOnRestoreLeads><![CDATA[//*[@id='restore_record']]]></ClickOnRestoreLeads>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='lead_trash']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>  
+  <ClickOnMouseOver><![CDATA[//*[@id='normal']]]></ClickOnMouseOver>  
+  <ClickOnQuickLink><![CDATA[//*[@id='lead_trash']/tbody/tr[1]/td[1]]]></ClickOnQuickLink>  
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete>
+  <ClickOnRestore><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore>
+  <ClickOnLeadView><![CDATA[//*[@id='normal']]]></ClickOnLeadView> 
+
+
+  
+</Locators>

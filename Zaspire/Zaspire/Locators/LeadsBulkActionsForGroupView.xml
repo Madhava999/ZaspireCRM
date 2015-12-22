@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  <FirstLeadGroupNameLink><![CDATA[//*[@id='lead_groups']/tbody/tr[1]/td[2]/a]]></FirstLeadGroupNameLink>
+
+
+  <!-- BULK UPDATE LEADS FOR GROUP VIEW --> 
+  <CheckMasterCheckBox><![CDATA[//*[@id='related_leads_table']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+  <SelectStatus><![CDATA[//*[@id='BulkUpdateLeadStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='BulkUpdateLeadSource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
+  <SelectPartner><![CDATA[//*[@id='BulkUpdateAssignedPartnerId']]]></SelectPartner>
+
+  <ClickOnUpdate><![CDATA[//*[@id='lead_update']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='lead_update']/div/div/div[3]/button]]></ClickOnCancel>
+
+  <!--  BULK EMAIL LEADS FOR GROUP VIEW  -->
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+
+  <!--  BULK DELETE LEADS FOR GROUP VIEW  -->
+  <ClickOnDeleteLeads><![CDATA[//*[@id='delete_member']]]></ClickOnDeleteLeads>
+  <ClickOnDeleteLead><![CDATA[//*[@id='related_leads_table']/tbody/tr[1]/td[13]/a/span]]></ClickOnDeleteLead>
+
+
+  </Locators>
